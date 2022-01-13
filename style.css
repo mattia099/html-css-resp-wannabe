@@ -82,14 +82,30 @@ img {
 
   #lezioni .row{
     background-color: #F2F2CD;
-    margin-top: 0;
+    padding-top:20px;
+    
   }
 
   #why .row{
     background-color: #F2F2CD;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  #why .row>.first{
+    margin-top: 30px;
   }
   .container.grey{
     background-color: white;
+  }
+
+
+  .row{
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .container{
+    
   }
   *{
     margin: 0;
