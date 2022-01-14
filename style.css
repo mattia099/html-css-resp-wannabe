@@ -71,6 +71,10 @@ img {
 .clear {
   clear: both;
 }
+/*responsive*/
+.row{
+  max-width:100%;
+}
 
 @media screen and (max-width:420px) {
   #lezioni .row>.right , #lezioni .row>.left, #steps .row>.left,
@@ -94,9 +98,11 @@ img {
     margin-top: 0;
     padding-top: 20px;
   }
+  
   #why .row>.first{
     margin-top: 30px;
   }
+  
   .container.grey{
     background-color: white;
   }
@@ -108,8 +114,12 @@ img {
     padding-bottom: 20px;
   }
 
-  .container{
-    
+  hr{
+    border: solid black 1px;
+  }
+
+  #why .row>.first, #why .row>.second, #why .row>.third{
+    margin-top: 30px;
   }
   *{
     margin: 0;
